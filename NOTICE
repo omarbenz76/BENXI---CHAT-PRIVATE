@@ -1,0 +1,39 @@
+BENXI
+=====
+
+Copyright (c) 2025 Omar Ben Sabyh
+All rights reserved under the MIT License and Apache License 2.0.
+
+This software was created by Omar Ben Sabyh as an expression of the belief
+that private communication is a human right, that metadata is data, and that
+no corporation or government should hold total control over how human beings
+speak to one another.
+
+CREATOR
+-------
+Omar Ben Sabyh
+Ideologist: a world in which no one holds total control, no one profits from
+private communication, metadata is abolished, and social control by the
+powerful is architecturally impossible.
+
+SPDX-License-Identifier: MIT OR Apache-2.0
+
+THIRD-PARTY NOTICES
+-------------------
+This software incorporates components from the following open source projects:
+
+- libsodium (ISC License) — https://libsodium.org
+  Copyright (c) 2013-2024 Frank Denis
+
+- Signal Protocol Design (GPLv3) — https://signal.org/docs/
+  The cryptographic design of BENXI is inspired by the Signal Protocol.
+  BENXI is an independent implementation and is not affiliated with Signal.
+
+- Node.js (MIT License) — https://nodejs.org
+- React (MIT License) — https://react.dev
+- React Native (MIT License) — https://reactnative.dev
+- PostgreSQL (PostgreSQL License) — https://postgresql.org
+- Redis (BSD 3-Clause) — https://redis.io
+
+Full license texts for all third-party components are available in their
+respective repositories.
