@@ -1,0 +1,52 @@
+# ─── Environment ─────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.production
+.env.*.local
+
+# ─── Node.js ─────────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── Build outputs ────────────────────────────────────────────────────────────
+dist/
+build/
+.next/
+out/
+
+# ─── Mobile ───────────────────────────────────────────────────────────────────
+mobile/android/.gradle/
+mobile/android/app/build/
+mobile/android/local.properties
+mobile/ios/Pods/
+mobile/ios/build/
+*.keystore
+!mobile/android/app/debug.keystore
+
+# ─── Database ─────────────────────────────────────────────────────────────────
+*.sql.dump
+*.backup
+
+# ─── Docker ───────────────────────────────────────────────────────────────────
+# Never commit Docker volumes or override files with secrets
+docker-compose.override.yml
+
+# ─── Logs ────────────────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── IDE ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Coverage ────────────────────────────────────────────────────────────────
+coverage/
+.nyc_output/
