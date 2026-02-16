@@ -69,7 +69,7 @@ Platforms that accumulate user data become instruments of power. BENXI eliminate
 ### Run with Docker (Recommended)
 
 ```bash
-git clone https://github.com/[your-org]/benxi.git
+git clone https://github.com/[omarbenz76]/benxi.git
 cd benxi
 cp .env.example .env
 docker-compose up -d
