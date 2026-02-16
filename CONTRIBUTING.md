@@ -42,7 +42,7 @@ Please read:
 
 ```bash
 # Clone
-git clone https://github.com/[your-org]/benxi.git
+git clone https://github.com/[omarbenz76]/benxi.git
 cd benxi
 
 # Backend
